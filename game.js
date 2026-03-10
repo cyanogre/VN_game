@@ -24,7 +24,9 @@ const LOCATIONS = {
 // 3. NPCs  — se inyectan al cargar una historia
 // =====================================================================
 const NPCS = {};
-
+window.intros = window.intros || {};
+window.kiss = window.kiss || {};
+window.fondle = window.fondle || {};
 let phoneOpen = false;
 let activeNpcId = null;
 
