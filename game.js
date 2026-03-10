@@ -2,7 +2,7 @@
 // 1. STATE
 // =====================================================================
 const GAME = {
-    day: 1, time: 10, energy: 100
+    day: 1, time: 10, energy: 100,
     location: 'apartamento',
     flags: {},
     ended: false
